@@ -1,3 +1,5 @@
 let message;
 message = 'Hello';
 console.log(message);
+let age = 57;
+console.log(age);
