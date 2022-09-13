@@ -18,7 +18,7 @@ app.get("/:id",(req,res) =>{
 app.post("/Forms", function (req,res) {
     if(!req.body) return res.sendStatus(400);
     console.log(req.body);
-    res.send(`${req.body.login} - ${req.body.password}`);
+    res.send(`${req.body.login} - ${req.body.password} - ${req.body.file}`);
 });
 //Users/darya_pv/Prac 1/programming-lessons/html/Формы практика/form1.html
 app.get('*', (req, res) => {

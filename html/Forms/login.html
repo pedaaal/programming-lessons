@@ -5,7 +5,7 @@
         <title>Практика</title> 
     </head>
     <body>
-        <form action = "/Forms" method="post" id="form">
+        <form action = "/Forms" method="post" id="form" enctype="multipart/form-data">
             <p>
                 <label for="login">Логин: </label>
                 <input type="text" id="login" name="login" />
@@ -13,6 +13,9 @@
             <p>
                 <label for="password">Пароль: </label>
                 <input type="password" id="password" name="password" /> 
+            </p>
+            <p> 
+                <input type="file" name="file"/>
             </p>
             <p>
                 <button type="submit">Отправить</button>
