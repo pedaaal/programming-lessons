@@ -26,3 +26,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server is running on http://${HOST}:${PORT}`));
+
+//$image_data = file_get_contents($pic);
