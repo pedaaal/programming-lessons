@@ -2,16 +2,17 @@
   "name": "html",
   "version": "1.0.0",
   "description": "",
-  "main": "article.js",
+  "main": "style.js",
   "scripts": {
-    "start": "nodemon article.js",
+    "start": "nodemon style.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "formidable": "^2.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"

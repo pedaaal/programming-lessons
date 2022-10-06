@@ -20,6 +20,7 @@ app.post("/Forms", function (req,res) {
     console.log(req.body);
     res.send(`${req.body.login} - ${req.body.password} - ${req.body.file}`);
 });
+
 //Users/darya_pv/Prac 1/programming-lessons/html/Формы практика/form1.html
 app.get('*', (req, res) => {
     res.send('404 not found');
