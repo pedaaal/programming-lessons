@@ -1,6 +1,9 @@
-<!DOCTYPE html> <html>
-<head>
-<meta charset="utf-8"> <title>Классы CSS</title> <style>
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>CSS</title> 
+        <style>
             div{
                 width: 50px;
                 height: 50px;
@@ -10,10 +13,19 @@
             }
                 .blueBlock{ background-color: blue;
             }
+            a:not(.blueLink) { color: purple; }
+            h1:first-letter { color:red; font-size: 40px; }
+            h1:first-line { color:pink; font-size: 20px; }
         </style>
     </head>
-<body>
-<h2>Классы CSS</h2>
-<div class="redBlock"></div> <div class="blueBlock"></div> <div class="redBlock"></div>
+    <body>
+        <h1>Мама мыла раму.</h1>
+        <h5>Классы CSS</h5>
+            <div class="redBlock"></div> 
+            <div class="blueBlock"></div> 
+            <div class="redBlock"></div>
+            <a>Раз</a><br/>
+            <a class="blueLink">Два</a><br/>
+            <a>Три</a>
     </body>
 </html>
